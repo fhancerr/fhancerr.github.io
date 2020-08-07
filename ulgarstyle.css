@@ -1,0 +1,65 @@
+#navbarid {
+	font-family: 'Courgette', cursive;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+	display:flex; 
+    flex-direction:column;
+	color: white;
+	font-size: 24px;
+	height: 100vh;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('arkaplan.jpg');
+background-color: #152238;
+
+}
+
+#yazilar {
+
+	font-family: 'Ubuntu', sans-serif;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+	
+
+#haritalar {
+	  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+}
+#harita1 {
+	float: right;
+	
+}
+
+#gmap_canvas {
+	float: right;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+#footerid {
+
+margin-top:auto;
+	background: #152238;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+}
+
+#iletisimbaslik{
+	padding-top: 2.5vh;
+}
+
+#iletisim {
+	font-size: 1rem;
+}
